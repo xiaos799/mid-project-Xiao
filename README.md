@@ -4,7 +4,7 @@ Steps:
 
 Deal with missing values: 
 1. impute with time series imputation, then keep only the recent 3 yr data
-2. impute with KNN for each yr and test the primal KNN value via linear regression & r2 score --> maximum r2score test set 0.8372290370986162 at N 1
+2. impute with KNN for each yr and test the primal KNN value via linear regression & r2 score --> maximum r2score test set 0.8372 at N 1
 
 Observe country ranking over 3 yrs:
 Identified 6 representative countries -- Afghanistan (at bottom in 3 yr), Finland (at top in 3 yr), Kuwait (rise to top in 3 yr), Yemen, Comoros & Sri Lanka (drop to bottom in 3 yr)
